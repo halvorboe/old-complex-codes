@@ -26,7 +26,7 @@ export default () => {
     }
     let itemsChanged = false;
     const updatedItems = items.map((it, index) => {
-      if (Math.abs(index - it.position) < 0.3) {
+      if (Math.abs(index - it.position) < 0.1) {
         it.position = index;
       } else {
         itemsChanged = true;
@@ -59,7 +59,7 @@ export default () => {
   useEffect(() => {
     setInterval(() => {
       setUpdate(true);
-    }, 10);
+    }, 1000 / 24);
   });
   const maxValue = items.reduce((acc, it) => Math.max(acc, it.value), -1000000);
   return (
