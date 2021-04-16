@@ -30,14 +30,13 @@ examples/biz-website/public/
 examples/blog/public/
 integration-tests/gatsby-cli/execution-folder/*
 *.un~
-dist
 bin/published.js
 
 # Build Path of Test Fixtures
 test/**/public
 .gatsby-context.js
 .DS_Store
-public/
+dist/
 node_modules/
 e2e-tests/gatsby-pnp/
 .cache/

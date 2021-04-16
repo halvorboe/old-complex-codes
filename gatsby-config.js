@@ -3,7 +3,7 @@ module.exports = {
     title: `Complex Codes`,
     author: {
       name: `Halvor Fladsrud Bø`,
-      summary: `who lives and works in Oslo building useful things.`,
+      summary: `who lives and works in London buiding useful things.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
