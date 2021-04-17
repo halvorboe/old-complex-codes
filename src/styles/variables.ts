@@ -1,9 +1,12 @@
 /* eslint-disable max-len */
 
+/*
+https://colorhunt.co/palette/181367
+*/
+
 export const colors = {
-  brand: '#663399',
-  lilac: '#9d7cbf',
-  accent: '#ffb238',
+  brand: '#e43f5a',
+  accent: '#e43f5a',
   success: '#37b635',
   warning: '#ec1818',
   ui: {
@@ -13,9 +16,9 @@ export const colors = {
   },
   code: '#fcf6f0',
   gray: {
-    dark: 'hsla(270, 17.119554496%, 0%, 0.92)',
-    copy: 'hsla(270, 15.797828016000002%, 0%, 0.88)',
-    calm: 'rgba(0, 0, 0, 0.54)'
+    dark: '#1b1b2f',
+    copy: '#1f4068',
+    calm: '#162447'
   },
   white: '#fff',
   black: '#000'

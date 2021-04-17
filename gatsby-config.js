@@ -2,22 +2,29 @@
 
 module.exports = {
   siteMetadata: {
-    title: 'gatsby-starter-typescript-plus',
-    description: 'A starter kit for TypeScript-based Gatsby projects with sensible defaults.',
-    keywords: 'gatsbyjs, gatsby, javascript, sample, something',
-    siteUrl: 'https://gatsby-starter-typescript-plus.netlify.com',
+    title: 'Complex Codes',
+    description: 'A blog by Halvor Fladsrud Bø on programming related topics.',
+    keywords: 'java, rust, go, python',
+    siteUrl: 'https://complex.codes',
     author: {
-      name: 'Resi Respati',
-      url: 'https://twitter.com/resir014',
-      email: 'resir014@gmail.com'
+      name: 'Halvor Fladsrud Bø',
+      url: 'https://linkedin.com/in/halvorboe',
+      email: 'halvor@complex.codes'
     }
   },
   plugins: [
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'content',
-        path: `${__dirname}/src/content`
+        name: 'blog',
+        path: `${__dirname}/src/content/blog`
+      }
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'images',
+        path: `${__dirname}/src/assets/images`
       }
     },
     {
@@ -48,13 +55,23 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
-        siteUrl: 'https://gatsby-starter-typescript-plus.netlify.com'
+        siteUrl: 'https://complex.codes'
       }
     },
     'gatsby-plugin-emotion',
     'gatsby-plugin-typescript',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
-    'gatsby-plugin-react-helmet'
+    'gatsby-plugin-react-helmet',
+        {
+          resolve: `gatsby-plugin-google-fonts`,
+          options: {
+            fonts: [
+              `Poppins`,
+              `Open Sans`,
+            ],
+            display: 'swap'
+          }
+        }
   ]
 }

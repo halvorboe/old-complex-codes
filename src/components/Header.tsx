@@ -7,10 +7,11 @@ import { heights, dimensions, colors } from '../styles/variables'
 import Container from './Container'
 
 const StyledHeader = styled.header`
+  position: absolute;
   height: ${heights.header}px;
   padding: 0 ${dimensions.containerPadding}rem;
-  background-color: ${colors.brand};
   color: ${transparentize(0.5, colors.white)};
+  z-index: 1000;
 `
 
 const HeaderInner = styled(Container)`
@@ -21,9 +22,10 @@ const HeaderInner = styled(Container)`
 `
 
 const HomepageLink = styled(Link)`
-  color: ${colors.white};
-  font-size: 1.5rem;
-  font-weight: 600;
+  color: ${colors.brand};
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
 
   &:hover,
   &:focus {
