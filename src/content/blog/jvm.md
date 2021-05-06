@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: 'Making the JVM go BRRR'
+title: 'Understanding the JVM and making it go faster'
 date: '2021-04-01'
 ---
 

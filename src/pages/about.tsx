@@ -56,7 +56,7 @@ const PageTwo = () => (
           While going to school in Norway, I discovered programming around 2010. 2010-2017 I learned Python, HTML, CSS, JS, Django and Java
           as a hobby. Projects included a discussion forum, a beat analyzer connected to LEDs and a functional ransomware.{' '}
         </p>
-        <p>
+        {/* <p>
           In 2017 I started studying Computer Engineering at NTNU. I took extra courses on low level programming and machine learning. A lot
           of time went into starting Recrut, a HR start-up. Using Django and React, we successfully launched our platform and got a lot of
           students at our university onboard, as well as some of cool companies - including Spacemaker (recently got aquired for 240M) and
@@ -64,7 +64,7 @@ const PageTwo = () => (
           platform. The platform is used by over 250,000 students. In 2020 I started Favn, with the goal of quickly building a profitable
           start-up building software. Favn is currently profitable with 17 part-time employees and has helped multiple other start-ups get
           off the ground. I also participated in hackathons and competitive programming competitions.
-        </p>
+        </p> */}
         <p>Since September 2020 I have worked at Palantir as Forward Deployed Software Engineer based in London.</p>
       </Container>
     </Page>
