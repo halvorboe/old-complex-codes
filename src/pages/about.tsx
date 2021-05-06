@@ -48,8 +48,8 @@ const PageTwo = () => (
         <h4>Favn (2020-Present)</h4>
         <p>A software company building innovative products. Both in house and helping other companies.</p>
         <a href="https://favn.com">Website</a>
-        <h4>Halfspring (2018-Present)</h4>
-        <p>Investing. The next Andreesen Horowitz, hopefully ;)</p>
+        <h4>Complex Invest (2018-Present)</h4>
+        {/* <p>Investing. The next Andreesen Horowitz, hopefully ;)</p> */}
         <br />
         <h3>Background</h3>
         <p>
