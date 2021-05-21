@@ -22,7 +22,7 @@ export default `
     overflow-x: hidden;
     overflow-y: scroll;
     font-family: ${fonts.sansSerif};
-    color: ${colors.white};
+    color: ${colors.black};
     background-color: ${colors.gray.calm};
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
@@ -86,7 +86,7 @@ export default `
   h1, h2, h3, h4, h5, h6 {
     margin-top: 1.414rem;
     margin-bottom: .5rem;
-    color: ${colors.white};
+    color: ${colors.black};
     font-weight: 1000;
     line-height: ${dimensions.lineHeight.heading};
     text-rendering: optimizeLegibility;
@@ -113,7 +113,7 @@ export default `
   p {
     margin-top: 0;
     margin-bottom: 1rem;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
   }
 
   strong {

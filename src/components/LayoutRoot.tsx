@@ -9,7 +9,6 @@ const StyledLayoutRoot = styled.div`
   flex-direction: column;
   min-height: 100vh;
   background-color: ${colors.gray.calm};
-  color: ${colors.white};
 `
 
 interface LayoutRootProps {

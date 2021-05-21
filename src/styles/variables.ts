@@ -5,7 +5,7 @@ https://colorhunt.co/palette/181367
 */
 
 export const colors = {
-  brand: '#e43f5a',
+  brand: '#E43F5A',
   accent: '#e43f5a',
   success: '#37b635',
   warning: '#ec1818',
@@ -16,13 +16,19 @@ export const colors = {
   },
   code: '#fcf6f0',
   gray: {
+    dark: "#DEDFE6",
+    copy: "#757985",
+    calm: "#E5E5E5",
+  },
+  white: '#fff',
+  black: '#3A3A3A'
+}
+
+/*   gray: {
     dark: '#1b1b2f',
     copy: '#1f4068',
     calm: '#162447'
-  },
-  white: '#fff',
-  black: '#000'
-}
+  }, */
 
 export const fonts = {
   sansSerif:
@@ -36,13 +42,13 @@ export const breakpoints = {
   sm: 576,
   md: 768,
   lg: 992,
-  xl: 1200
+  xl: 1400
 }
 
 export const widths = {
   md: 720,
   lg: 960,
-  xl: 1140
+  xl: 1340
 }
 
 export const dimensions = {
