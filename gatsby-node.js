@@ -12,7 +12,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 
   switch (node.internal.type) {
     case 'MarkdownRemark': {
-      const { permalink, layout } = node.frontmatter
+      const { permalink } = node.frontmatter
       const { relativePath } = getNode(node.parent)
 
       let slug = permalink
@@ -32,7 +32,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       createNodeField({
         node,
         name: 'layout',
-        value: layout || ''
+        value: "blog"
       })
     }
   }

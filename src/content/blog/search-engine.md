@@ -1,8 +1,6 @@
 ---
-layout: blog
 title: 'Building a search engine from scratch'
 date: '2021-04-01'
-description: 'Have you ever wondered what happens when you type “what is the meaning of life” into Google?'
 ---
 
 ![](https://miro.medium.com/max/1278/1*eJ83TL-47hXHcAtUmDxDnw.jpeg)
