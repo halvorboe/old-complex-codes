@@ -4,12 +4,12 @@ backend:
   site_domain: complexcodes.netlify.app
 
 media_folder: static/assets
-public_folder: /assets
+public_folder: src/assets
 
 collections:
   - name: 'blog'
     label: 'Blog'
-    folder: 'content/blog'
+    folder: 'src/content/blog'
     create: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
