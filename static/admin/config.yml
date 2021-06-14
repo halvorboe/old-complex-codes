@@ -1,5 +1,7 @@
 backend:
-  name: test-repo
+  name: github
+  repo: halvorboe/complex.codes
+  site_domain: complexcodes.netlify.app
 
 media_folder: static/assets
 public_folder: /assets
