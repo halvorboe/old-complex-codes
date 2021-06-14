@@ -44,20 +44,22 @@ const IndexPage = ({ data }) => {
               </h5>
               <h1 style={{ fontWeight: 'bold', fontSize: '68px', lineHeight: '70px' }}>Halvor Fladsrud Bø</h1>
               <br />
-              <button
-                style={{
-                  background: 'none',
-                  border: `2px solid ${colors.accent}`,
-                  fontWeight: 'bold',
-                  borderRadius: '3px',
-                  color: colors.accent,
-                  padding: '20px',
-                  fontFamily: 'Oxygen',
-                  letterSpacing: '0.2em'
-                }}
-              >
-                Download CV <FaDownload />
-              </button>
+              <a href="https://www.linkedin.com/in/halvorboe/">
+                <button
+                  style={{
+                    background: 'none',
+                    border: `2px solid ${colors.accent}`,
+                    fontWeight: 'bold',
+                    borderRadius: '3px',
+                    color: colors.accent,
+                    padding: '20px',
+                    fontFamily: 'Oxygen',
+                    letterSpacing: '0.2em'
+                  }}
+                >
+                  Download CV <FaDownload />
+                </button>
+              </a>
             </div>
           </div>
           <Portrait />
